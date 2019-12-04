@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_menu_home"
+            android:title="@string/menu_home" />
+    </group>
+    <item android:title="@string/main_menu" >
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/nav_fridge"
+                    android:icon="@drawable/ic_menu_fridge"
+                    android:title="@string/menu_fridge" />
+                <item
+                    android:id="@+id/nav_reservations"
+                    android:icon="@drawable/ic_menu_reservations"
+                    android:title="@string/menu_reservations" />
+                <item
+                    android:id="@+id/nav_transport"
+                    android:icon="@drawable/ic_menu_transport"
+                    android:title="@string/menu_transport" />
+            </group>
+        </menu>
+    </item>
+    <item android:title="@string/sub_menu" >
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/nav_settings"
+                    android:icon="@drawable/ic_menu_settings"
+                    android:title="@string/menu_settings" />
+                <item
+                    android:id="@+id/nav_about"
+                    android:icon="@drawable/ic_menu_about"
+                    android:title="@string/menu_about" />
+            </group>
+        </menu>
+    </item>
+
+</menu>

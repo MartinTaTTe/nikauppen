@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.nikuappen.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_fridge"
+        android:name="com.example.nikuappen.ui.fridge.FridgeFragment"
+        android:label="@string/menu_fridge"
+        tools:layout="@layout/fragment_fridge" />
+
+    <fragment
+        android:id="@+id/nav_reservations"
+        android:name="com.example.nikuappen.ui.reservations.ReservationsFragment"
+        android:label="@string/menu_reservations"
+        tools:layout="@layout/fragment_reservations" />
+
+    <fragment
+        android:id="@+id/nav_transport"
+        android:name="com.example.nikuappen.ui.transport.TransportFragment"
+        android:label="@string/menu_transport"
+        tools:layout="@layout/fragment_transport" />
+
+    <fragment
+        android:id="@+id/nav_settings"
+        android:name="com.example.nikuappen.ui.settings.SettingsFragment"
+        android:label="@string/menu_settings"
+        tools:layout="@layout/fragment_settings" />
+
+    <fragment
+        android:id="@+id/nav_about"
+        android:name="com.example.nikuappen.ui.about.AboutFragment"
+        android:label="@string/menu_about"
+        tools:layout="@layout/fragment_about" />
+</navigation>
