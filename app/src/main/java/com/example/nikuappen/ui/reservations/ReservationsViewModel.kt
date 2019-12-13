@@ -7,7 +7,7 @@ import androidx.lifecycle.ViewModel
 class ReservationsViewModel : ViewModel() {
 
     private val _text = MutableLiveData<String>().apply {
-        value = "This is reservations Fragment"
+        value = "Coming soon!"
     }
     val text: LiveData<String> = _text
 }

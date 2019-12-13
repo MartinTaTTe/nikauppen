@@ -7,7 +7,7 @@ import androidx.lifecycle.ViewModel
 class TransportViewModel : ViewModel() {
 
     private val _text = MutableLiveData<String>().apply {
-        value = "This is transport Fragment"
+        value = "Coming soon!"
     }
     val text: LiveData<String> = _text
 }
